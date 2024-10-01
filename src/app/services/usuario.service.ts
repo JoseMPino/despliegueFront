@@ -7,7 +7,7 @@ import { Usuraio } from '../models/usuraio';
 export class UsuarioService {
   selectedUser: Usuraio;
   usuarios:Usuraio[];
-  readonly URL_API='https://despliegue-proyect.vercel.app/api/usuarios';
+  readonly URL_API='https://despliegue-back.vercel.app/api/usuarios';
 
   constructor(private http: HttpClient) {
     this.selectedUser = new Usuraio();
